@@ -1,8 +1,8 @@
 # HW3
 
-Forgive me lord for I have sinned
-RIP freshmen
-Come to office hours, we'll help you :)!
+Forgive me lord for I have sinned <br />
+RIP freshmen <br />
+Come to office hours, we'll help you :)! <br />
 
 Last question is a Google interview question. Try your best to finish under 30 minutes!
 
