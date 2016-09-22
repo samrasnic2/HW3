@@ -217,5 +217,5 @@ def lazy_trainer(pokomon):
 # Note
 # ----
 # This is a Google interview question. If you can solve this problem in under 30 minutes, you would have passed 1 of 2 rounds.
-def findRing(numbers):
+def findRing(agents):
     pass
