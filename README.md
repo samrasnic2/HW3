@@ -4,9 +4,9 @@ Forgive me lord for I have sinned <br />
 RIP freshmen <br />
 Come to office hours, we'll help you :)! <br />
 
-Last question is a Google interview question. Try your best to finish under 30 minutes!
+Last question is a Google interview question. Try your best to finish under 30 minutes! <br />
 
-Remember to push this to your homework repository that you made for HW2.
+Remember to push this to your homework repository that you made for HW2.<br />
 Deadline: September 27, 7pm
 
 ## Documentation
