@@ -18,6 +18,11 @@ def test_reverse_block():
     assert reverse_block([1, 2, 3, 4, 5, 6], 2) == [2, 1, 4, 3, 6, 5]
     assert reverse_block([], 100) == []
     assert reverse_block(range(100), 100) == list(reversed(range(100)))
+    assert reverse_block(range(1, 9), 3) == [3, 2, 1, 6, 5, 4, 8, 7]
+    assert reverse_block(range(1, 25), 7) == [7, 6, 5, 4, 3, 2, 1,
+                                              14, 13, 12, 11, 10, 9, 8,
+                                              21, 20, 19, 18, 17, 16, 15,
+                                              24, 23, 22]
 
 def testNthLargestElement():
     assert nth_largest_element([3, 1, 5, 2, 4], 3) == 3
@@ -38,8 +43,6 @@ def testFindRing():
     assert(findRing([1,2,3,4,5,6,7,8,9,2])) == 8
 
 if __name__ == '__main__':
-    # Students can test this just by running the script
-    # With the -v argument, they can find out the ones they got wrong.
     test_reverse_block()
     test_lazy_trainer()
     testNthLargestElement()
