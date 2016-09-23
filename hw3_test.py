@@ -3,14 +3,14 @@ from hw3 import*
 def test_lazy_trainer():
     # Easy Cases
     assert lazy_trainer([]) == 0
-    assert lazy_trainer([3, 2, 2]) == 8
+    assert lazy_trainer([3, 2, 2]) == 10
     assert lazy_trainer([1, 2, 3, 4, 5]) == 36
     assert lazy_trainer([13, 7, 11, 1, 2, 10,
-                         13, 12, 13, 8, 19, 10, 12, 0, 18, 14, 6, 7, 5, 13]) == 1125
+                         13, 12, 13, 8, 19, 10, 12, 0, 18, 14, 6, 7, 5, 13]) == 1524
     assert lazy_trainer([1, 8, 4, 7, 7, 7, 4,
-                         7, 5, 7, 4, 8, 1, 4, 4, 0, 1, 0, 4, 5]) == 400
+                         7, 5, 7, 4, 8, 1, 4, 4, 0, 1, 0, 4, 5]) == 732
     assert lazy_trainer([9, 5, 0, 4, 6, 3, 8, 9, 7, 5, 5,
-                         8, 1, 3, 9, 9, 2, 0, 5, 0, 4, 2, 0, 5, 4, 7, 1, 4, 5, 8]) == 924
+                         8, 1, 3, 9, 9, 2, 0, 5, 0, 4, 2, 0, 5, 4, 7, 1, 4, 5, 8]) == 1710
     # Medium Cases
     assert lazy_trainer([0 for i in range(100)] + [1]) == 101
     assert lazy_trainer(range(1, 101)) == 197026
