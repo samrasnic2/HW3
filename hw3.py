@@ -149,13 +149,12 @@ def reverse_block(arr, block_size):
 # ----------
 # Example 1:
 #   Input 1: [3, 2, 2]
-#   We should use Belly Drum on the first Pokomon to get Strength = 2.
-#   Then we should use Tackle to defeat the next Pokomon to get Experience = 4.
-#   Then we should use Tackle one last time to defeat the Pokomon to get Experience = 8.
+#   We should use Belly Drum on the second Pokomon to get Strength = 2.
+#   Then we should use Tackle to defeat the the rest to get Experience = 10.
 #   This is the maximum experience we can gain from the series of battles.
 #
 #   Output:
-#   8
+#   10
 #
 # Parameters
 # ----------
