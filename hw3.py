@@ -134,8 +134,8 @@ def reverse_block(arr, block_size):
 # But as a 8th Time Entrier in the Hall of Fame, we have become very very lazy.
 #
 # Given a sequence of Pokomons to fight (with corresponding Hit Points), return the maximum
-# experience we can gain with our new battle method! You must fight the Pokomon in the order given.
-# i.e. You cannot fight Pokomon #4 without fighting Pokomon #1.
+# experience we can gain with our new battle method! (Correction: ) You can fight the Pokomon in any order.
+# i.e. You can fight Pokomon #4 without fighting Pokomon #1.
 #
 # The Pokomon starts with Strength = 1 and Experience = 0. We are interested in training lots of
 # Pokomon after all!
@@ -149,13 +149,12 @@ def reverse_block(arr, block_size):
 # ----------
 # Example 1:
 #   Input 1: [3, 2, 2]
-#   We should use Belly Drum on the first Pokomon to get Strength = 2.
-#   Then we should use Tackle to defeat the next Pokomon to get Experience = 4.
-#   Then we should use Tackle one last time to defeat the Pokomon to get Experience = 8.
+#   We should use Belly Drum on the second Pokomon to get Strength = 2.
+#   Then we should use Tackle to defeat the the rest to get Experience = 10.
 #   This is the maximum experience we can gain from the series of battles.
 #
 #   Output:
-#   8
+#   10
 #
 # Parameters
 # ----------
