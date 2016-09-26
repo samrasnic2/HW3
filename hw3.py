@@ -119,6 +119,7 @@ def reverse_block(arr, block_size):
     pass
 
 
+
 # Lazy Trainer
 #
 # Recently, there has been extensive research done on Pokomon's (don't sue us) training method.
